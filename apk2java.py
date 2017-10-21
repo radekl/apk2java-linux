@@ -20,7 +20,7 @@ project_name = ''
 sign_file = ''
 cwd = os.path.dirname(os.path.abspath(__file__))
 home = os.path.dirname(os.path.realpath(sys.argv[0]))
-outdir = os.path.dirname(os.path.realpath(sys.argv[1]))
+outdir = None
 external = "https://github.com/TheZ3ro/apk2java-linux/releases/download/tool/tool.zip"
 
 
